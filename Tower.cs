@@ -33,12 +33,12 @@ namespace TreehouseDefense
                         invader.DecreaseHealth(Power);
                         if(invader.IsNeutralized)
                         {
-                            Console.WriteLine("Neutralized an invader!");
+                            Console.WriteLine("Neutralized " + invader.ToString() + " at " + invader.Location + "!");
                         }
                     }
                     else
                     {
-                        Console.WriteLine("Shot at and missed an invader");
+                        Console.WriteLine("Shot at and missed " + invader.ToString());
                     }
                     break;
                 }

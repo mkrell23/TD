@@ -7,6 +7,11 @@ namespace TreehouseDefense
         private readonly Path _path;
         private int _pathStep = 0;
 
+        public override string ToString()
+        {
+            return "an invader";
+        }
+
         protected virtual int StepSize { get ; } = 1;
         
         public MapLocation Location => _path.GetLocationAt(_pathStep);
@@ -30,7 +35,7 @@ namespace TreehouseDefense
         public virtual void DecreaseHealth(int factor)
         {
             Health -= factor;
-            Console.WriteLine("Shot at and hit an invader!");
+            Console.WriteLine("Shot at and hit " + ToString() + "!");
         }
     }
 }

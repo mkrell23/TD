@@ -5,6 +5,11 @@ namespace TreehouseDefense
     class ShieldedInvader : Invader
     {
         private static Random _random = new Random();
+
+        public override string ToString()
+        {
+            return "a shielded invader";
+        }
         public ShieldedInvader(Path path) : base(path)
         {}
 
