@@ -16,6 +16,11 @@ namespace TreehouseDefense
         {
             _location = location;
         }
+
+        public override string ToString()
+        {
+            return "A tower";
+        }
         
         private bool IsSuccessfulShot()
         {
@@ -33,12 +38,12 @@ namespace TreehouseDefense
                         invader.DecreaseHealth(Power);
                         if(invader.IsNeutralized)
                         {
-                            Console.WriteLine("Neutralized " + invader.ToString() + " at " + invader.Location + "!");
+                            Console.WriteLine( this.ToString() + " neutralized " + invader.ToString() + " at " + invader.Location + "!");
                         }
                     }
                     else
                     {
-                        Console.WriteLine("Shot at and missed " + invader.ToString());
+                        Console.WriteLine( this.ToString() + " shot at and missed " + invader.ToString());
                     }
                     break;
                 }
