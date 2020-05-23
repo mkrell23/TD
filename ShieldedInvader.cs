@@ -13,15 +13,15 @@ namespace TreehouseDefense
         public ShieldedInvader(Path path) : base(path)
         {}
 
-        public override void DecreaseHealth(int factor)
+        public override void DecreaseHealth(int factor, string name)
         {
             if(_random.NextDouble() < .5)
             {
-                base.DecreaseHealth(factor);
+                base.DecreaseHealth(factor, name);
             }
             else
             {
-                Console.WriteLine("Shot at a shielded invader but it sustained no damage.");
+                Console.WriteLine( name + " shot at a shielded invader at " + this.Location + " but it sustained no damage.");
             }
         }
     }

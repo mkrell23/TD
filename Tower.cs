@@ -35,7 +35,7 @@ namespace TreehouseDefense
                 {
                     if(IsSuccessfulShot())
                     {
-                        invader.DecreaseHealth(Power);
+                        invader.DecreaseHealth(Power, this.ToString());
                         if(invader.IsNeutralized)
                         {
                             Console.WriteLine( this.ToString() + " neutralized " + invader.ToString() + " at " + invader.Location + "!");
@@ -43,7 +43,7 @@ namespace TreehouseDefense
                     }
                     else
                     {
-                        Console.WriteLine( this.ToString() + " shot at and missed " + invader.ToString());
+                        Console.WriteLine( this.ToString() + " shot at and missed " + invader.ToString() + " at " + invader.Location + ".");
                     }
                     break;
                 }

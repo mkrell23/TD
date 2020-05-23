@@ -32,10 +32,10 @@ namespace TreehouseDefense
         
         public virtual void Move() => _pathStep += StepSize;
         
-        public virtual void DecreaseHealth(int factor)
+        public virtual void DecreaseHealth(int factor, string name)
         {
             Health -= factor;
-            Console.WriteLine("Shot at and hit " + ToString() + "!");
+            Console.WriteLine( name + " shot at and hit " + ToString() + " at " + this.Location + "!");
         }
     }
 }
