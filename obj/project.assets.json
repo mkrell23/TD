@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\mkrell\\.nuget\\packages\\": {}
+    "/home/luser/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mkrell\\VS-coding\\TreehouseDefense\\TreehouseDefense.csproj",
+      "projectUniqueName": "/home/luser/Downloads/proj/treehouse/TD/TreehouseDefense.csproj",
       "projectName": "TreehouseDefense",
-      "projectPath": "C:\\Users\\mkrell\\VS-coding\\TreehouseDefense\\TreehouseDefense.csproj",
-      "packagesPath": "C:\\Users\\mkrell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mkrell\\VS-coding\\TreehouseDefense\\obj\\",
+      "projectPath": "/home/luser/Downloads/proj/treehouse/TD/TreehouseDefense.csproj",
+      "packagesPath": "/home/luser/.nuget/packages/",
+      "outputPath": "/home/luser/Downloads/proj/treehouse/TD/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\mkrell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/luser/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -56,7 +56,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
       }
     }
   }
