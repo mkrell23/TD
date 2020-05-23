@@ -1,3 +1,5 @@
+using System;
+
 namespace TreehouseDefense
 {
     class Invader
@@ -23,9 +25,10 @@ namespace TreehouseDefense
         
         public void Move() => _pathStep += 1;
         
-        public void DecreaseHealth(int factor)
+        public virtual void DecreaseHealth(int factor)
         {
             Health -= factor;
+            Console.WriteLine("Shot at and hit an invader!");
         }
     }
 }
