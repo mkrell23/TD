@@ -5,6 +5,7 @@ namespace TreehouseDefense
     class Game
     {
         public static void Main()
+        //BUG #2 Multiple Entry Points Issue
         {
             Map map = new Map(8, 5);
             
