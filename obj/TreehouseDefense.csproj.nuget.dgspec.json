@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/luser/Downloads/proj/treehouse/TD/TreehouseDefense.csproj": {}
+    "C:\\Users\\mkrell\\VS-coding\\TreehouseDefense\\TreehouseDefense.csproj": {}
   },
   "projects": {
-    "/home/luser/Downloads/proj/treehouse/TD/TreehouseDefense.csproj": {
+    "C:\\Users\\mkrell\\VS-coding\\TreehouseDefense\\TreehouseDefense.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/luser/Downloads/proj/treehouse/TD/TreehouseDefense.csproj",
+        "projectUniqueName": "C:\\Users\\mkrell\\VS-coding\\TreehouseDefense\\TreehouseDefense.csproj",
         "projectName": "TreehouseDefense",
-        "projectPath": "/home/luser/Downloads/proj/treehouse/TD/TreehouseDefense.csproj",
-        "packagesPath": "/home/luser/.nuget/packages/",
-        "outputPath": "/home/luser/Downloads/proj/treehouse/TD/obj/",
+        "projectPath": "C:\\Users\\mkrell\\VS-coding\\TreehouseDefense\\TreehouseDefense.csproj",
+        "packagesPath": "C:\\Users\\mkrell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mkrell\\VS-coding\\TreehouseDefense\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/luser/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\mkrell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -45,12 +53,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.2, 3.1.2]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
